@@ -1,0 +1,132 @@
+body{
+	padding: 0;
+	margin: 0;
+	background:linear-gradient(#badc58,#dff9fb);
+}
+.header{
+	width: 100%;
+	height: 80px;
+	background-color: #A3CB38;
+	border-style: outset;
+	border-color: black;
+	border-radius: 10px;
+}
+.container{
+	width: 65%;
+	height: 600px;
+	margin-left: 235px;
+	margin-top:105px;
+	border-style: outset;
+	border-color: black;
+	border-radius: 10px;
+	background: linear-gradient(#A3CB38,#C4E538);
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+ul{
+	list-style: none;
+	display: flex;
+}
+ul li{
+	margin: 33px;
+	font-size: 25px;
+	font-weight: 800;
+	padding: 0px 40px;
+}
+ul li:hover{
+	background-color: #fff;
+	color: #006266;
+	padding: 10px 30px;
+	border-style: outset;
+	border-color: #006266;
+	border-radius: 5px;
+}
+.pics{
+	width: 90%;
+	height: 400px;
+	margin: 35px;
+	margin-left: 75px;
+	border-style: outset;
+	border-radius: 10px;
+	background:  linear-gradient(#A3CB38,#C4E538);
+}
+.footer{
+	width: 90%;
+	height: 270px;
+	background:  linear-gradient(#A3CB38,#C4E538);
+	margin: 35px;
+	margin-left: 75px;
+	border-style: outset;
+	border-radius: 10px;
+}
+.items{
+	width: 10%;
+	padding: 10px 15px;
+	margin: 25px;
+	margin-left: 70px;
+	font-size: 30px;
+	font-weight: 800;
+	border-radius: 5px;
+	border-style: outset;
+	border-color: #006266;
+}
+.items:hover{
+	background-color: white;
+	color: #006266;
+}
+.items a{
+	text-decoration: none;
+	color: black;
+}
+.Payment a{
+	text-decoration: none;
+	color: black;
+}
+.bum{
+	width: 10%;
+	padding: 10px 15px;
+	margin: 25px;
+	margin-left: 10px;
+	font-size: 30px;
+	font-weight: 800;
+	border-radius: 5px;
+	border-style: outset;
+	border-color: #006266;
+	float: left;
+}
+.bum:hover{
+	background-color: white;
+	color: #006266;
+}
+.bum a{
+	text-decoration: none;
+	color: black;
+}
+.form a{
+	text-decoration: none;
+	color: black;
+}
+.img{
+	width: 95%;
+	height: 450px;
+	margin-left: 45px;
+	margin-top:15px;
+	border-style: outset;
+	border-color: black;
+	border-radius: 10px;
+	background: linear-gradient(#A3CB38,#C4E538);
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+.div{
+	background-color: transparent;
+	width:450px;
+	height: 300px;
+	border-radius: 35px;
+	float: left;
+	margin: 10px;
+	border-style: inset;
+	border-color: white;
+}
